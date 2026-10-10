@@ -138,7 +138,6 @@ header {
 /* DEBUT STYLE DU BLOC PRESENTATION */
 .presentation-grid {
   display: flex;
-  border: 5px solid red;
   padding: 20px;
   
  
@@ -146,7 +145,6 @@ header {
 
 }
 .presentation-grid figure{
-  border: 1px solid green;
   margin: 20px;
   width: 70%;
 }
@@ -167,25 +165,26 @@ header {
   display: flex;
   justify-content: space-between;
   border: 10px solid brown;
-  margin: 20px;
+ background: #ffffff;
   position: relative;
   right: 150px;
   top: 100px;
   height: fit-content;
   width: 100%;
+  margin: 50px auto 20px auto;
+  padding:40px;
 
-  
 }
 
 .desc h4 {
   
-  border: 1px solid rgb(19, 20, 19);
+  
  margin: 10px;
 
 }
 
 .desc p {
-  border: 1px solid rgb(19, 20, 19);
+ text-align:justify;
   margin: 10px;
 
 
@@ -195,7 +194,7 @@ header {
 
 /* DEBUT STYLE DE POURQUOI */
 .section-pourquoi {
-  background-color: var(--bleu);
+  background-color: rgba(112, 66, 165, 0.801);
   color: var(--blanc);
   
 }
@@ -226,11 +225,12 @@ header {
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
-.section-pourquoi .p-card i {
+.section-pourquoi-p-card  {
   font-size: 50px;
   margin-bottom: 25px;
   display: block;
-  color: var(--orange);
+  color: white;
+  
 }
 
 .section-pourquoi .p-card h4 {
@@ -238,9 +238,10 @@ header {
   font-weight: 800;
   margin-bottom: 15px;
   color: var(--blanc);
+  text-align: center;
 }
 
-.section-pourquoi .p-card p {
+.section-pourquoi-p-card p {
   font-size: 15px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
@@ -269,7 +270,7 @@ header {
 
 .section-pourquoi .stat-box i {
   font-size: 32px;
-  color: var(--orange);
+  color: white;
 }
 
 .section-pourquoi .stat-box span {
@@ -311,6 +312,7 @@ header {
   font-size: 40px;
   color: var(--orange);
   margin-bottom: 20px;
+  
 }
 
 .service h4 {
@@ -318,6 +320,7 @@ header {
   font-weight: 700;
   margin-bottom: 15px;
   color: var(black);
+  text-align: center;
 }
 
 /* FIN STYLE DE SERVICES */
@@ -373,7 +376,7 @@ header {
 footer {
 
   padding: 90px;
-  background: linear-gradient(rgba(135, 12, 160, 0.932), rgba(122, 21, 128, 0.425)), url('JO.png');
+  background: linear-gradient(rgb(78, 31, 131), rgba(70, 19, 112, 0.788)), url('JO.png');
   background-size: cover;
   border-radius: 5px;
 
